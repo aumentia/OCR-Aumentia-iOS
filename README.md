@@ -35,7 +35,7 @@ HOW TO Objective C
 ## Objective C++
 The .m file where you include the framework must be compiled supporting cpp, so change the “File Type” to “Objective-C++ Source“ or just rename it to **.mm extension**.
 
-* Init the framework.
+## Init the framework.
 
 ```objective-c
 // Tesseract path
@@ -50,7 +50,7 @@ self.ocr = [[ocrAPI alloc] init:@"8a83bebc51535accf9c31abdb66efc5d60e7b2ad" path
 
 You can add more languages. Just add the one you like from <a target="_blank" href="https://github.com/tesseract-ocr/tessdata">https://github.com/tesseract-ocr/tessdata</a> to OCRAumentiaBundle.bundle/tessdata
 
-* Send frames (for real time) or a single UIImage to analyze
+## Send frames (for real time) or a single UIImage to analyze
 
 Frame:
 ```objective-c
