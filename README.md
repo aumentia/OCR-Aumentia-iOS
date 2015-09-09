@@ -39,7 +39,7 @@ NSString *pathToTessData    = [NSString stringWithFormat:@"%@/%@", resourcePath,
 self.ocr = [[ocrAPI alloc] init:@"8a83bebc51535accf9c31abdb66efc5d60e7b2ad" path:pathToTessData lang:@"eng" chars:@"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 ```
 
-You can add more languages. Just add the one you like from <a href=https://github.com/tesseract-ocr/tessdata>https://github.com/tesseract-ocr/tessdata</a> to OCRAumentiaBundle.bundle/tessdata
+You can add more languages. Just add the one you like from <a target="_blank" href="https://github.com/tesseract-ocr/tessdata">https://github.com/tesseract-ocr/tessdata</a> to OCRAumentiaBundle.bundle/tessdata
 
 * Send the frame or UIImage to analyze
 
@@ -155,10 +155,10 @@ iPad mini 1, 2, 3<br>
 ******************
 License
 ******************
-[LICENSE](https://github.com/aumentia/HelloVisualSearch_iOS/blob/master/LICENSE)
+[LICENSE](https://github.com/aumentia/OCR-Aumentia-iOS/blob/master/LICENSE)
 
 <br>
 ******************
 Bugs
 ******************
-[Issues & Requests](https://github.com/aumentia/HelloVisualSearch_iOS/issues)
+[Issues & Requests](https://github.com/aumentia/OCR-Aumentia-iOS/issues)
