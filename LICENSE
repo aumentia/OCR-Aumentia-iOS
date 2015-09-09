@@ -1,202 +1,84 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+===============================
+Aumentia 1.0 License Agreement
+===============================
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+AUMENTIA TECHNOLOGIES SL
 
-   1. Definitions.
+LICENSE AGREEMENT FOR AUMENTIA OCR SOFTWARE DEVELOPMENT KIT
+ 
+THIS LICENSE AGREEMENT FOR AUMENTIA OCR SOFTWARE DEVELOPMENT KIT (THIS “AGREEMENT” or THIS “Agreement”) IS A LEGALLY BINDING AGREEMENT BETWEEN AUMENTIA TECHNOLOGIES SL. ("AT") AND THE LEGAL ENTITY YOU REPRESENT (“YOU” OR “You”).  If you USE OR are seeking to use the Software in connection with any work or undertaking you are doing for a business, company or corporate entity (“Company”), whether as an employee or contractor, the terms “You” and “You” include, and the terms and conditions hereof are binding on, both you as an individual as well as such Company.  In Addition, you represent and warrant that you have the authority to bind such Company, and that such Company has authorized you to accept the terms of this Agreement on its behalf.
+ 
+AT IS WILLING TO LICENSE THE SOFTWARE AND DOCUMENTATION DESCRIBED IN THE LIST BELOW (THE “SOFTWARE” OR THE “Software”) TO YOU ONLY ON THE CONDITION THAT YOU ACCEPT AND AGREE TO ALL OF THE TERMS AND CONDITIONS IN THIS AGREEMENT. BY DOWNLOADING THIS SOFTWARE YOU ACKNOWLEDGE AND AGREE, THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.  IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS, AT IS UNWILLING TO AND DOES NOT AND WILL NOT LICENSE THE SOFTWARE OR PROVIDE THE DOCUMENTATION TO YOU.  IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS YOU MAY NOT COMMENCE ANY DOWNLOAD AND / OR INSTALLATION PROCESS AND YOU SHALL NOT USE THE SOFTWARE OR RETAIN ANY COPIES OF THE SOFTWARE OR DOCUMENTATION, EVEN IF YOU HAVE IN ANY MANNER COME INTO POSSESSION THEREOF.  ANY USE OR POSSESSION OF THE SOFTWARE AND/OR DOCUMENTATION BY YOU IS SUBJECT TO THE TERMS AND CONDITIONS SET FORTH IN THIS AGREEMENT.
+ 
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+1.  LICENSE GRANT.
+———————————————————
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+1.1 License to Software other than Sample Code.  The Software is intended for use as a development tool to enable the development and testing of visual recognition end-user software applications (the “Permitted Use”).  Subject to and conditioned upon compliance with the terms and conditions of this Agreement, including the limitations, conditions, restrictions and obligations set forth below, AT hereby grants to You a personal, non-exclusive, non-sublicensable (except as expressly provided in Section 1.6 (Limited Sublicense Rights) non-transferable, revocable, limited copyright license, during the term of this Agreement, to (i) download, install and use the Software (other than Sample Code) in machine-readable (i.e. object code) form solely for the Permitted Use, and (ii) distribute in object code only the Aumentia OCR engine binary files that are included in the Software, solely as such binary files are integrated into and used by each software application that You develop for the Permitted Use in accordance with the Documentation and the terms of this Agreement.  You may not use the Software and may not accept this Agreement if you are a person barred from receiving the Software under the laws of Spain or any other country including the country in which you are resident or in which you use the Software. In addition to any additional software that AT provides pursuant to Section 1.8 (Additional Software), the Software licensed hereunder may include the following:  
+Aumentia Software Development Kit
+* Aumentia Engine binary files (redistributable as permitted above);
+* Sample Code;
+* Sample Content Files (e.g., images); and
+* Contents May Vary for Platform Specific Versions
+ 
+1.2  Documentation.  Subject to the terms and conditions of this Agreement, including the limitations, conditions, restrictions and obligations set forth below, You may reproduce and use a reasonable number of copies of the Documentation on an internal basis only, and solely in support of Your Permitted Use of the Software. Distribution of the Documentation is prohibited without the express written permission of AT.  
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+1.3  Third Party Licenses. The Software may contain third party programs, including but not limited to software licensed under open source terms.  The license terms associated with those programs apply to your use of them, and in some instances such programs cannot be used or further distributed without a license from the respective owner of such programs. You shall be solely responsible to (i) obtain, if necessary, a separate and independent license from such owner with respect to any such use and (ii) include all applicable license terms and notices in Your application for third party programs contained in the Software that are distributed as part of Your application.  The delivery of the Software does not convey a license, nor imply any rights, to use third party programs.  A separate and independent license for such use may be required and You shall be solely responsible to verify whether such license is needed in conjunction with your use of such third party programs.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+1.4  License to Sample Code.  AT may, in its sole discretion, provide certain Sample Code that is part of the Software in human readable (source code) form.  In some cases, the Sample Code may be delivered to You separately from the other Software, but whether provided separately or 
+together with the other Software, if (and only if) AT provides such Sample Code in source code form to You, then subject to and conditioned upon compliance with the terms and conditions of this Agreement, including the limitations, conditions, restrictions and obligations set forth below, AT hereby grants to You a personal, non-sublicensable, non-transferable, non-exclusive, revocable, limited copyright license, during the term of this Agreement, solely for the purpose of developing applications utilizing the Aumentia Software Development Kit, to modify the Sample Code, compile into object code the Sample Code and Your modifications thereto, and reproduce and distribute such compiled object code as part of the software applications that You develop, in each case strictly in accordance with the Documentation and the Permitted Use. You acknowledge and agree that Your license to the Sample Code is conditioned upon You modifying the Sample Code such that Your software application contains material additional features and functionality; re-distribution of Sample Code without material improvement is not permitted. You will inform any third parties that are to receive such software applications that contain any Sample Code or Your modifications thereto that the delivery of such software applications will not convey or otherwise provide any rights under Aumentia IP.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+1.5  License to Sample Applications.  AT may, in its sole discretion, provide certain Sample Applications in binary form for the sole purpose of demonstrating certain features enabled by the Software.  In some cases, a Sample Application may be delivered to You separately from the other Software, but whether provided separately or together with the other Software, if (and only if) AT provides such Sample Application to You, then subject to the terms and conditions of this Agreement, including the limitations, conditions, restrictions and obligations set forth below, AT hereby grants to You a personal, non-sublicensable, non-transferable, non-exclusive, revocable, limited copyright license, during the term of this Agreement, to install such Sample Application on a reasonable number of wireless devices, solely for Your internal evaluation of Aumentia features.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+1.6  Limited Sublicense Rights.   Subject to and conditioned upon compliance with the terms and conditions of this Agreement, including the limitations, conditions, restrictions and obligations set forth below, AT hereby grants to You a personal, non-exclusive, non-sublicensable, non-transferable, revocable, limited copyright license, during the term of this Agreement to sublicense the Aumentia engine binary files, solely as an integral part of Your software application and solely to licensed recipients of Your software application, subject to the following additional requirements: (a) Your Aumentia-enabled software application(s) must add significant functionality to the Aumentia engine binary files, Sample Code, and You shall not distribute the Aumentia engine binary files and/or Sample Code except as fully integrated into your application(s), (b) Your sublicense must be no less protective of the Software and the rights and interests of AT and its affiliates than are the terms of this Agreement, (c) You shall not make any representations, warranties, or undertake (or attempt to undertake) any obligations on behalf of AT or its affiliates, and You shall ensure that AT and its affiliates shall have no liability to Your sublicensees.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+1.7  Additional Software.  AT hereby reserves the right to provide or otherwise make available, at its discretion, additional software to You from time to time.  Any additional software or documentation that AT provides to You by express reference to this Agreement will be considered to be part of the Software or Documentation, as the case may be, and subject to all terms and conditions of this Agreement.  By accepting, possessing or using such additional software or documentation, which shall include without limitation any related plug-ins as we may directly or indirectly distribute, You agree that the terms of this Agreement will apply thereto. 
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+1.8  Pre-commercial Software Releases.  If the Software provided to You under this Agreement is designated by AT as a pre-commercial release (indicated by terms such as “alpha,” “beta,” “trial,” “draft” or “evaluation”) then in lieu of the licenses granted to You above, but subject to any other executed agreement that You may have for the Software which grants additional or different rights or imposes additional or different restrictions, You shall only have the right under this Agreement to download and install the Software on a reasonable number of workstations for the internal and non-commercial evaluation of the Software.  You acknowledge that the Software is a prerelease or experimental version and is not at the level of performance and compatibility of a final product. The Software may not operate correctly and may be substantially modified prior to first commercial shipment, or may be withdrawn completely.  You will not do any significant development or testing using the Software, and any development You undertake is at Your sole risk, with the understanding that the Software may never be issued for commercial use. You shall not commercialize, distribute, publicly perform or publicly display any applications developed by You using the Software or any component thereof. If You desire other rights (such as the right to develop commercial products using the Software) You must use a commercial release of the Software.  The use license granted in this section expires when the Software is made available under full commercial terms which You accept.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+1.9  Bug Reports.  You are encouraged to report to AT all bugs you experience or encounter with the Software and You agree that AT shall have the right to use, without attribution or compensation to You, all feedback (of any nature) which AT receives or otherwise obtains from You, in any form, to improve, enhance or modify the Software or otherwise.
+ 
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+2.  RESTRICTIONS.  
+——————————————————
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+2.1  Retention of Rights.  As between You and AT, AT and its affiliates and licensors hereby retain all right, title, and interests in and to the Software, including without limitation all copyrights, patent rights, trademark rights and all other intellectual property rights therein or related thereto.  Subject to ownership rights of AT, its affiliates and licensors in and to the Software, You shall retain the copyright rights in and to any modifications to the source code portions of the Software that are made by You as permitted by this Agreement.  This Agreement does not convey or otherwise provide to You title or any ownership rights or interests in or to any intellectual property rights of AT or any of its affiliates, including but not limited to (1) those  in the Software or any component of the Software, or (2) any patents, patent applications, works of authorship, trade secrets, know-how, ideas, or any other subject matter protectable under intellectual property rights laws of any jurisdiction, of Aumentia or any of its affiliates. As between You and AT, AT is the sole and exclusive owner of and retains all right, title and interest in and to all AT software, including, without limitation, the items set forth in (1) and (2) above and all intellectual property rights in each of the foregoing.  Any rights not expressly granted to You in this Agreement are reserved by AT, its affiliates and their respective licensors.  Without limiting the generality of the foregoing, neither the delivery of any Software, hardware, documentation or other materials to You or any third party, nor any other provision of this Agreement (including, without limitation, any rights or licenses granted by AT in this Agreement) will be deemed or construed to grant to You or any third party, whether expressly, by implication or by way of estoppel or otherwise, any right or license (and no authority to infringe, or immunity from infringement liability, will be deemed to arise or exist as a matter of law) under (i) any patents of Aumentia or any of its affiliates, (ii) any intellectual property rights of Aumentia or its affiliates covering or relating to any product or invention other than the Software, or (iii) any combination of the Software with any other product or invention. Any rights not expressly granted to You herein are hereby reserved by AT. In addition, You acknowledge and agree, on behalf of Yourself and Your affiliates, that (a) this Agreement does not modify or abrogate any obligations that You or any of Your affiliates has under any license or other agreement with Aumentia, including without limitation any obligation to pay any royalties, and (b) neither You nor any of Your affiliates will contend that it has obtained any right, license, or immunity from suit with respect to any patents of Aumentia  or its affiliates under or as a result of this Agreement (whether expressly, impliedly, by virtue of estoppel or exhaustion, or otherwise). 
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+2.2  Use Restrictions.  Except as expressly provided in Section 1 (License Grant) above, You may make a single copy the Software only for backup purposes, provided that You reproduce all copyright and other proprietary notices that are on the original copy of the Software. You shall not incorporate, link, distribute or use any third party software or code in conjunction with (i) the Software (ii) any software, products, documentation, content or other materials developed using the Software, nor (iii) any derivative works that You make using the source code portions of the Software (if any), in such a way that: (a) creates, purports to create or has the potential to create, obligations with respect to the Software or other AT software, including without limitation the distribution or disclosure of any source code; or (b) grants, purports to grant, or has the potential to grant to any third party any rights to or immunities under any intellectual property rights or proprietary rights of AT or its affiliates, including without limitation as such rights exist in or relate to the Software.  Without limiting the generality of the foregoing, You shall not incorporate, link, distribute or use (1) the Software or any other software provided by AT, (2) any software, products, documentation, content or other materials developed using the Software, nor (3) any derivative works that You make using the source code portions of the Software (if any), with any code or software licensed under any version of the GNU General Public License (“GPL”), Affero General Public License (“AGPL”), Lesser General Public License (“LGPL”), European Union Public License (“EUPL”), Apple Public Source License (“APSL”), Common Development and Distribution License (“CDDL”), IBM Public License (“IPL”), Eclipse Public License (“EPL”), Mozilla Public License (“MPL”), or any other open source license, in any manner that could cause or could be interpreted or asserted to cause the Software or other AT software (or any modifications thereto) to become subject to the terms of the GPL, AGPL, LGPL, EUPL, APSL, CDDL, IPL, EPL, MPL, or such other open source license. You, and each party receiving Software or any copies thereof from You, shall not receive any rights to use such Software or copies thereof in a manner that will cause any patents, copyrights or other intellectual property rights which are owned or controlled by AT or any of its affiliates (or for which AT or any of its affiliates has received license rights) to become subject to any encumbrance or terms and conditions of any third party or open source license (including, without limitation, any open source license listed on http://www.opensource.org/licenses/alphabetical) (each an “Open Source License”).  These restrictions, limitations, exclusions and conditions shall apply even if AT or any of its affiliates becomes aware of or fails to act in a manner to address any violation or failure to comply therewith.  Also, no act by AT or any of its affiliates that is undertaken under this Agreement as to any software or technology shall be construed as being inconsistent with the intent not to cause any patents, copyrights or other intellectual property rights which are owned or controlled by AT or any of its affiliates (or for which AT or any of its affiliates has received license rights) to become subject to any encumbrance or terms and conditions of any Open Source License.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+2.3  Additional Restrictions.  You will not: (i) reverse engineer, disassemble, decompile, or translate the Software, or otherwise attempt to derive the source code version of the Software, except if and only to the extent expressly permitted by applicable law; (ii) use the Software and/or Documentation or any portion thereof to create or develop any developer tools (including without limitation plug-ins and middleware) or any software other than end-user targeted visual recognition software applications; (iii) make more copies of the Software and/or Documentation than specified in this Agreement or allowed by applicable law, despite this limitation; (iv) transfer or assign this Agreement or any of the rights, duties or obligations hereunder (note however that You may transfer and assign Your software applications that You develop in accordance with the Documentation and the Permitted Use, provided that, You provide a copy of this Agreement and secure the binding agreement of the transferee/assignee that the terms and conditions of this Agreement shall continue to fully apply and bind You as well as the transferee/assignee with respect to such transferred application(s)); (v) except as expressly permitted hereby, rent, lease, loan or otherwise in any manner provide or distribute the Software and/or Documentation or any copy of thereof to any third party; (vi) access or use for any purpose any application protocol interface (API) such as the Aumentia APIs, except as expressly described in the Documentation; or (vii) except as expressly permitted under Section 1 (License Grant), reproduce, distribute, publicly perform, publicly display or create derivative works of or based on the Software and/or Documentation, or disclose, provide or otherwise transfer, in any manner, to any third party the Software (except as expressly permitted for the Sample Code), Documentation or any portion thereof.   Any applications You develop with or in connection with the Software that include visual recognition functionality must utilize output from Aumentia tools for the purpose of generating appropriate resources for image recognition.  You will not include in your applications or Target Images (as defined below) (x) any content or materials of any kind (text, graphics, images, photographs, video, sounds, etc.) that comprise, constitute or depict profanity, nudity, pornographic images or explicit sexual themes, or defamatory or libelous statements, material that infringes the intellectual property of any person or entity, material that infringes upon the privacy or data protection rights of any person, or material that is or could be considered to be illegal or objectionable, (y) any malware malicious or harmful code, program or other internal component (e.g., computer viruses, Trojan horses, “backdoors” etc. that could damage, destroy or adversely affect other software, firmware, hardware, data, systems, services or networks, or (z) any facial recognition functionality or facial images. You shall not use the Software and/or Documentation to create or develop any software application that invades, violates or infringes the copyrights, patent rights, trade secrets, trademark or service mark rights, privacy, publicity, or any other rights of any person or entity, and shall not constitute a libel or defamation of any third party.  In addition, You agree not to design or develop any software application that you create or develop based on the use of the Software in a manner so as to, or with the objective to, damage any wireless device, computer, network, or any feature or function of a wireless device, computer or network based on the use of such application.  You represent and warrant that you have obtained all necessary permission and licenses from all holders of intellectual property rights, if any, in material or code appearing, used or recorded in any software application that you create or develop with the Software and/or Documentation. The license to the Software and Documentation granted to You hereunder is solely for the Permitted Use expressly set forth in Section 1 (License Grant) and the Software and Documentation shall not be used for any other purpose or use.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+2.4  Additional Services and Functions.  No fees are due under this Agreement for the development, commercialization and distribution of Your visual recognition-capable end-user software applications.  You acknowledge that certain optional services may be provided by AT, and access to such services are licensed separately and may include separate charges for use. 
+ 
+3.  CONFIDENTIALITY; NO SUPPORT. You hereby acknowledge and agree that the Software (excepting the Sample Code), along with certain Documentation and related information that are so marked, are confidential and proprietary to AT.  Except as expressly permitted in this Agreement, You shall not disclose, or permit the disclosure of, the Software and/or confidential Documentation in any form or any information relating to the Software and/or Documentation (including without limitation the results of use or testing) to any third party without AT’s prior written permission; provided that, you may otherwise generally make mention of and discuss the Software with others.  Notwithstanding the foregoing, You shall not discuss or otherwise disclose any information about a pre-commercial release of the Software including without limitation any application You have developed using a pre-commercial release of the Software. You further acknowledge and agree that any unauthorized use or disclosure of the Software, confidential Documentation and/or such information may cause irreparable harm and significant injury to AT that would be difficult to ascertain or quantify; accordingly You agree that AT shall have the right to seek and obtain injunctive or other equitable relief to enforce the terms of this Agreement and without limiting any other rights or remedies that AT may have.  Also, You acknowledge and agree that the Software and Documentation is provided “AS IS,” that AT is under no obligation to provide any form of technical support for the Software and/or Documentation, and that if AT, in its sole discretion, chooses to provide any form of support or information relating to the Software and/or Documentation, such support and information shall be deemed confidential and proprietary to AT and protected in accordance with this Section 3 unless otherwise specified in writing. 
+ 
+4.  DISCLAIMER OF WARRANTIES.  YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT THE USE OF THE SOFTWARE AND DOCUMENTATION IS AT YOUR SOLE RISK. THE SOFTWARE, DOCUMENTATION AND TECHNICAL SUPPORT, IF ANY, ARE PROVIDED "AS IS" AND WITHOUT ANY WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE. TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, AT AND ITS AFFILIATES AND LICENSOR(S) (FOR THE EASE OF REFERENCE IN SECTIONS 4, 5, AND 6, AT AND ITS AFFILIATES AND LICENSOR(S) SHALL BE COLLECTIVELY REFERRED TO AS AT) EXPRESSLY DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.  AT DOES NOT REPRESENT OR WARRANT THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET YOUR REQUIREMENTS, OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT THE SOFTWARE OR ANY SERVICE ENABLED BY THE USE OF THE SOFTWARE WILL ALWAYS BE AVAILABLE, OR THAT DEFECTS IN THE SOFTWARE OR DOCUMENTATION WILL BE CORRECTED.  FURTHERMORE, AT DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF THE USE, OF THE SOFTWARE OR DOCUMENTATION IN TERMS OF ITS CORRECTNESS, ACCURACY, RELIABILITY, OR OTHERWISE. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY AT OR ITS AUTHORIZED REPRESENTATIVES SHALL CREATE ANY REPRESENTATION OR WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF ANY EXPRESS WARRANTY. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY OR MAY BE LIMITED. 
+ 
+5.  LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, UNDER NO CIRCUMSTANCES, INCLUDING WITHOUT LIMITATION NEGLIGENCE, SHALL AT, ITS AFFILIATES OR ANY OF THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE, EXEMPLARY OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO ANY DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION AND THE LIKE) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR ANY DOWNLOAD, INSTALLATION OR USE OF, OR INABILITY TO USE, THE SOFTWARE AND/OR DOCUMENTATION, EVEN IF AT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY OR MAY BE LIMITED.  AT HAS NO OBLIGATION TO DEFEND, INDEMNIFY OR HOLD YOU HARMLESS UNDER THIS AGREEMENT.  IN NO EVENT SHALL AT’S TOTAL AGGREGATE LIABILITY FOR ANY AND ALL DAMAGES, LOSSES, CLAIMS AND CAUSES OF ACTIONS (WHETHER IN CONTRACT, TORT, INCLUDING NEGLIGENCE OR OTHERWISE) EXCEED ONE HUNDRED DOLLARS ($100) OR THE EQUIVALENT THEREOF IN ANY OTHER CURRENCY.
+ 
+6.  INDEMNITY.  If an application is written by You using any component of the Software and such application is used, distributed, or otherwise deployed, then You agree to indemnify and hold AT, its affiliates and each of their respective officers, directors, employees and successors and assigns (each, a “AT Indemnitee”) harmless from and against any and all claims, demands, causes of action, losses, liabilities, damages, costs and expenses, incurred or otherwise suffered by each AT Indemnitee (including but not limited to costs of defense, investigation and reasonable attorney’s fees) arising out of, resulting from or related to (i) any use, reproduction or distribution of the Software, as modified or integrated by You, which causes an infringement of any patent, copyright, trademark, trade secret, or other intellectual property, publicity or privacy right of any third parties arising in any jurisdiction anywhere in the world, except and solely to the extent such infringement is caused by the unmodified Software, or portions thereof, as supplied to You by AT under this Agreement, (ii) the download, distribution, installation, storage, execution, use or transfer of such software, products, documentation, content, materials or derivative works by any person or entity, and/or (iii) any breach of this Agreement by You.  If and as requested by AT, You agree to defend each AT Indemnitee in connection with any third party claims, demands, or causes of action resulting from, arising out of or in connection with any of the foregoing.
+ 
+7.  CONSENT TO COLLECTION AND USE OF DATA.
+a.   Collection and Use of Statistics:  You understand and agree that the Software sends to AT and/or its affiliates and service providers certain  technical and related information, including but not limited to: (i) information about the end users’ devices such as make, model, operating system name and version and kernel version, (ii) information about our Software used to create Your software application such as the SDK version and device profile, (iii) information about Your software application and its use such as application runtime timestamp, settings (e.g., camera resolution settings, configuration settings), start and stop dates and times, camera on/off events, target image obtained/lost events, and other general usage information, and (iv) the IP address used by the end user’s device, for the purpose of allowing the Aumentia servers to infer the country of use (but not the exact location) (collectively “Statistics”).  You further understand and agree that AT and/or its affiliates may collect and use Statistics to: (a) improve and optimize Software for different hardware and software requirements on various consumer devices (commonly referred to as device fragmentation), (b) facilitate the provision of new products, updates, enhancements and other services, (c) improve the Software and our products, services and technologies and (d) provide new products, services or technologies to You and/or our customers.
+ 
+8.  MANDATORY END-USER LICENSE AGREEMENT CLAUSE. Each end user of a Aumentia-enabled software application must agree to the end user terms set forth in this Section 8. If You are licensing Your application(s) directly to end users, then You must include the following terms in Your end user license agreement for each of Your Aumentia-enabled applications. If You are developing Your application(s) for a third party where such third party will, directly or indirectly, license the application(s) to end users, then You must require such third party to include the following terms in the applicable end user license agreement. In all cases, each such end user license agreement must contain legally enforceable provisions whereby:
+         (i) each end user consents to the collection, storage, and use by AT and its affiliates and service providers of Statistics from the Software and the transfer of Statistics between AT and its affiliates and service providers (which may be in the United States or in other countries), in each case for the purposes of (a) facilitating the provision of new products, updates, enhancements and other services, (b) improving the Software, and other products, services and technologies, and (c) providing new products, services or technologies to You and customers of AT and its affiliates; and
+         (ii)  each end user is advised of the hazards of using  a camera based application while driving, walking, or otherwise by being distracted or disoriented from real world situations; and
+         (iii) if Your Aumentia-enabled software application uses any portion of other services provided by AT, You acknowledge that additional end-user terms and conditions will be required to be obtained from each end user.
+ 
+9.  TERM AND TERMINATION.  This Agreement shall be effective upon acceptance by You and shall continue until terminated.  You may terminate the Agreement at any time by deleting and destroying all copies of the Software and all related information in Your possession or control, provided that you also inform AT in writing at that time of such termination. This Agreement terminates immediately and automatically, with or without notice, if You fail to comply with any provision hereof.  Additionally, AT may at any time terminate this Agreement, either with or without cause, upon notice to You.  Upon termination You must delete or destroy all copies of the Software and Documentation in Your possession, and the license and other rights granted to You in this Agreement shall terminate. Sections 2 through 14 shall survive the termination of this Agreement..
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+10.  USE OF NAME AND LOGO.  You shall not display or make any use of AT’s or its affiliates’ names, marks or logos in connection with your application without the prior written approval of AT, except as explicitly permitted in this section.  Additionally, you may include the Aumentia mark, logo and product description in a press release for your application provided such use is in strict accordance with the following format and requirements: (i) your press release shall contain the following statement: “<Application name> uses Aumentia OCR Framework, a software platform that enables apps to create a new communication channel connecting digital experiences with physical products.”; (ii) your press release must contain the following trademark attribution statement: “Aumentia OCR Framework is a product of Aumentia Technologies SL”; (iii) your press release must not contain quotes or other statements attributed to AT or its affiliates without the prior written approval of AT; and (iv) you must provide a copy of your press release to AT in an email sent to info@aumentia.com at least forty eight (48) hours in advance of issuing the press release. AT reserves the right to reject any such press release and require you to remove all Aumentia marks and product descriptions from any such press release prior to issuance. Any use of the Aumentia logos or marks that does not fully comply with the logo usage guidelines and this Agreement is prohibited.  AT may, at its sole discretion, provide additional promotional and/or marketing opportunities with respect to such of your applications that display the Aumentia name and logo on its splash screen.  You agree that AT and its affiliates may include Your name (or Company’s name) and the graphical assets, screenshots, logos, trademarks and other digital assets (the “Graphical Assets”) that You  use with your application or otherwise associate with your application, on  AT or other Aumentia-related website(s), as part of Aumentia-related marketing materials, and the Aumentia “App Gallery.”
+ 
+11.  Demonstration of Your Applications by AT.  If a software application is written by You or on Your behalf using any component of the Software and such application is made available for download or distribution, then from and as of such date as you submit such application for, or otherwise permit or enable, such download or distribution, You hereby grant AT and its affiliates a world-wide, assignable, non-exclusive, fully paid-up and royalty-free, perpetual right and license to use, reproduce, distribute, publicly display and publicly perform, in each case for promotional and/or demonstration purposes, each such application and accompanying documentation and Graphical Assets.  Any such use by AT or its affiliates under the above terms shall be subject to payment of any applicable standard download, subscription or use fees otherwise generally applicable to the application when accessed by the general public, but otherwise any agreement, terms or conditions for such application shall be superseded by this section, and shall be inapplicable to the promotional and/or demonstration of the application(s) as described above.  
+ 
+12.  ENTIRE AGREEMENT; AMENDMENT; LANGUAGE.  This Agreement is the entire and exclusive agreement between AT and You with respect to the Software and Documentation and supersedes all prior agreements (whether written or oral) and other communications between AT and You with respect to the Software and Documentation.  Except to the extent that AT is expressly precluded by applicable law, AT further reserves the right to make changes to this Agreement, including but not limited to as needed to reflect changes in business practices or to reflect changes in or required by law or otherwise, by providing You with reasonable notice of the changes, which notice may be sent in writing or electronically or which may be made by posting notice of such update at https://github.com/aumentia/HelloVisualSearch_iOS/blob/master/LICENSE.  You will be responsible for reviewing and becoming familiar with any and all such changes. If You continue to use the Software or Documentation after notice of any changes has been provided or posted, You shall be deemed to have accepted any and all such changes.  Otherwise, this Agreement may be modified only by a written amendment executed by both You and AT.  This Agreement is entered into solely in the English language, and if for any reason any other language version is prepared by any party, it shall be solely for convenience and the English version shall govern and control in all respects. 
+ 
+13.  THIRD PARTY RIGHTS.  Excepting the terms and rights applicable to AT's affiliates as expressly stated herein (which terms and rights such AT affiliates shall be entitled to enforce as third party beneficiaries), the Parties agree, and confirm their mutual intention, that neither this Agreement nor any of the terms of this Agreement will be enforceable by any person/entity not a direct party to it and no third party beneficiary rights are conferred on any such third party.  Notwithstanding that any term of this Agreement may be or may become enforceable by a person who is not a party to this Agreement, the terms and conditions of this Agreement may be modified or amended, or this Agreement may be suspended, cancelled, rescinded or terminated by the parties as provided in Section 12 (Entire Agreement; Amendment; Language) without the consent of any such third party. 
+ 
+14.  GENERAL. This Agreement is governed and interpreted in accordance with the laws Spain without giving effect to its conflict of laws provisions. The United Nations Convention on Contracts for the International Sale of Goods is expressly disclaimed and shall not apply. Any claim arising out of or related to this Agreement must be brought exclusively in a court in Madrid ( Spain)and You hereby consent to the jurisdiction and venue of such courts.  AT may freely assign this Agreement or delegate any or all of its rights or obligations hereunder to any third party. If any provision of this Agreement shall be invalid, the validity of the remaining provisions of this Agreement shall not be affected. 
+ 
+BY DOWNLOADING THIS SOFTWARE YOU REPRESENT, WARRANT AND CERTIFY THAT: YOU ARE AN AUTHORIZED REPRESENTATIVE OF THE LEGAL ENTITY YOU REPRESENT; YOU HAVE READ THIS AGREEMENT AND UNDERSTAND IT; YOU HAVE THE AUTHORITY TO BIND THE LEGAL ENTITY YOU REPRESENT TO THE TERMS AND CONDITIONS OF THIS AGREEMENT; AND YOU AGREE ON BEHALF OF THE LEGAL ENTITY YOU REPRESENT TO BE BOUND BY ITS TERMS AND CONDITIONS.
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
-
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
-
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
-
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
-
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
-
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
-
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
-
-   END OF TERMS AND CONDITIONS
-
-   APPENDIX: How to apply the Apache License to your work.
-
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "{}"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
-
-   Copyright {yyyy} {name of copyright owner}
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-
+Rev. 05-01-2015
