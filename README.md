@@ -23,8 +23,13 @@ HOW TO Objective C
 * libiconv.dylib
 * libstdc++.6.0.9.dylib
 
+## Import the library
+
+```objective-c
+#import <OCRAumentia/OCRAumentia.h>
+```
 ## Objective C++
-The .m file where you include the framework must be compiled supporting cpp, so change the “File Type” to “Objective-C++ Source“ or just rename it to .mm extension.
+The .m file where you include the framework must be compiled supporting cpp, so change the “File Type” to “Objective-C++ Source“ or just rename it to **.mm extension**.
 
 * Init the framework.
 
@@ -41,14 +46,14 @@ self.ocr = [[ocrAPI alloc] init:@"8a83bebc51535accf9c31abdb66efc5d60e7b2ad" path
 
 You can add more languages. Just add the one you like from <a target="_blank" href="https://github.com/tesseract-ocr/tessdata">https://github.com/tesseract-ocr/tessdata</a> to OCRAumentiaBundle.bundle/tessdata
 
-* Send the frame or UIImage to analyze
+* Send frames (for real time) or a single UIImage to analyze
 
 Frame:
 ```objective-c
 
 // Start the process
 
-// Image is a CVImageBufferRef
+// image is a CVImageBufferRef
 [self.ocr processRGBFrame:image result:^(UIImage *resImage)
 {
     dispatch_async(dispatch_get_main_queue(), ^{
