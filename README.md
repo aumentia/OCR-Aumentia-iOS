@@ -9,6 +9,10 @@ OCR Framework
 HOW TO Objective C
 **********************
 
+## Add OCR SDK framework and bundle:
+* OCRAumentia.framework
+* OCRAumentiaBundle.bundle
+
 ## Add the following system frameworks and libraries:
 
 * AssetsLibrary.framework
