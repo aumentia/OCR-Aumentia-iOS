@@ -3,7 +3,7 @@ OCR Framework
 
 * Real time OCR
 * **arm64 support**
-* ** BITCODE enabled **
+* **BITCODE enabled**
 
 Check the "bitcode" branch to get the project updated for **XCode 7** and **iOS 9.1**
 
