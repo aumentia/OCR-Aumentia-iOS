@@ -1,6 +1,10 @@
 OCR Framework
 =======================
 
+<p align="left" >
+  <img src="http://www.aumentia.com/images/sdks/ocrsdk@2x.png" width="415" alt="Aumentia" title="Aumentia">
+</p>
+
 * Real time OCR
 * **arm64 support**
 * **BITCODE enabled**
