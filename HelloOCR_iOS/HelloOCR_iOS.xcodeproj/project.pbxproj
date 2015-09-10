@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616A9F7A1BA1F25D00CCAB80 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 616A9F791BA1F25D00CCAB80 /* libstdc++.6.0.9.tbd */; };
+		616A9F7C1BA1F26300CCAB80 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 616A9F7B1BA1F26300CCAB80 /* libiconv.tbd */; };
 		6189D1E41BA03BF60088E9C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6189D1E31BA03BF60088E9C1 /* main.m */; };
 		6189D1E71BA03BF60088E9C1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6189D1E61BA03BF60088E9C1 /* AppDelegate.mm */; };
 		6189D1EA1BA03BF60088E9C1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6189D1E91BA03BF60088E9C1 /* ViewController.mm */; };
@@ -24,14 +26,14 @@
 		6189D21D1BA03ECA0088E9C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6189D21C1BA03ECA0088E9C1 /* CoreGraphics.framework */; };
 		6189D21F1BA03ECF0088E9C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6189D21E1BA03ECF0088E9C1 /* Foundation.framework */; };
 		6189D2211BA03ED30088E9C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6189D2201BA03ED30088E9C1 /* UIKit.framework */; };
-		6189D2231BA03ED90088E9C1 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6189D2221BA03ED90088E9C1 /* libiconv.dylib */; };
-		6189D2251BA03EDD0088E9C1 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6189D2241BA03EDD0088E9C1 /* libstdc++.6.0.9.dylib */; };
 		6189D2281BA042A50088E9C1 /* CaptureSessionManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6189D2271BA042A50088E9C1 /* CaptureSessionManager.mm */; };
 		6189D22C1BA046DA0088E9C1 /* aumentia®.png in Resources */ = {isa = PBXBuildFile; fileRef = 6189D22A1BA046DA0088E9C1 /* aumentia®.png */; };
 		6189D22D1BA046DA0088E9C1 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6189D22B1BA046DA0088E9C1 /* pic1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		616A9F791BA1F25D00CCAB80 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		616A9F7B1BA1F26300CCAB80 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		6189D1DE1BA03BF60088E9C1 /* HelloOCR_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOCR_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6189D1E21BA03BF60088E9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6189D1E31BA03BF60088E9C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,8 +55,6 @@
 		6189D21C1BA03ECA0088E9C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6189D21E1BA03ECF0088E9C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6189D2201BA03ED30088E9C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6189D2221BA03ED90088E9C1 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		6189D2241BA03EDD0088E9C1 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		6189D2261BA042A50088E9C1 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
 		6189D2271BA042A50088E9C1 /* CaptureSessionManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CaptureSessionManager.mm; sourceTree = "<group>"; };
 		6189D22A1BA046DA0088E9C1 /* aumentia®.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aumentia®.png"; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6189D2251BA03EDD0088E9C1 /* libstdc++.6.0.9.dylib in Frameworks */,
-				6189D2231BA03ED90088E9C1 /* libiconv.dylib in Frameworks */,
+				616A9F7C1BA1F26300CCAB80 /* libiconv.tbd in Frameworks */,
+				616A9F7A1BA1F25D00CCAB80 /* libstdc++.6.0.9.tbd in Frameworks */,
 				6189D2211BA03ED30088E9C1 /* UIKit.framework in Frameworks */,
 				6189D21F1BA03ECF0088E9C1 /* Foundation.framework in Frameworks */,
 				6189D21D1BA03ECA0088E9C1 /* CoreGraphics.framework in Frameworks */,
@@ -122,8 +122,8 @@
 		6189D1E11BA03BF60088E9C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6189D2241BA03EDD0088E9C1 /* libstdc++.6.0.9.dylib */,
-				6189D2221BA03ED90088E9C1 /* libiconv.dylib */,
+				616A9F7B1BA1F26300CCAB80 /* libiconv.tbd */,
+				616A9F791BA1F25D00CCAB80 /* libstdc++.6.0.9.tbd */,
 				6189D2201BA03ED30088E9C1 /* UIKit.framework */,
 				6189D21E1BA03ECF0088E9C1 /* Foundation.framework */,
 				6189D21C1BA03ECA0088E9C1 /* CoreGraphics.framework */,
@@ -183,7 +183,7 @@
 		6189D1D61BA03BF60088E9C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Aumentia Technologies SL";
 				TargetAttributes = {
 					6189D1DD1BA03BF60088E9C1 = {
@@ -280,6 +280,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -297,7 +298,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,6 +336,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -351,7 +353,9 @@
 					"$(PROJECT_DIR)/HelloOCR_iOS/SDK",
 				);
 				INFOPLIST_FILE = HelloOCR_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aumentia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -366,7 +370,9 @@
 					"$(PROJECT_DIR)/HelloOCR_iOS/SDK",
 				);
 				INFOPLIST_FILE = HelloOCR_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aumentia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -390,6 +396,7 @@
 				6189D2031BA03BF60088E9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
