@@ -31,7 +31,18 @@
 		6189D22D1BA046DA0088E9C1 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6189D22B1BA046DA0088E9C1 /* pic1.jpg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		612C79B21BA2F593002ABF67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 612C79AE1BA2F592002ABF67 /* HelloOCRSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 612C79991BA2F592002ABF67;
+			remoteInfo = HelloOCRSwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		612C79AE1BA2F592002ABF67 /* HelloOCRSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HelloOCRSwift.xcodeproj; path = HelloOCRSwift/HelloOCRSwift.xcodeproj; sourceTree = "<group>"; };
 		616A9F791BA1F25D00CCAB80 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		616A9F7B1BA1F26300CCAB80 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		6189D1DE1BA03BF60088E9C1 /* HelloOCR_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOCR_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,9 +95,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612C79AF1BA2F592002ABF67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612C79B31BA2F593002ABF67 /* HelloOCRSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6189D1D51BA03BF60088E9C1 = {
 			isa = PBXGroup;
 			children = (
+				612C79AE1BA2F592002ABF67 /* HelloOCRSwift.xcodeproj */,
 				6189D1E01BA03BF60088E9C1 /* HelloOCR_iOS */,
 				6189D1DF1BA03BF60088E9C1 /* Products */,
 			);
@@ -202,12 +222,28 @@
 			mainGroup = 6189D1D51BA03BF60088E9C1;
 			productRefGroup = 6189D1DF1BA03BF60088E9C1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 612C79AF1BA2F592002ABF67 /* Products */;
+					ProjectRef = 612C79AE1BA2F592002ABF67 /* HelloOCRSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6189D1DD1BA03BF60088E9C1 /* HelloOCR_iOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		612C79B31BA2F593002ABF67 /* HelloOCRSwift.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HelloOCRSwift.app;
+			remoteRef = 612C79B21BA2F593002ABF67 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6189D1DC1BA03BF60088E9C1 /* Resources */ = {

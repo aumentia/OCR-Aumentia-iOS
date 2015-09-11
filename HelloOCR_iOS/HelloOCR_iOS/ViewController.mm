@@ -62,7 +62,6 @@
 {
     if ( !self.ocr )
     {
-        // Tesseract path
         NSString *resourcePath      = [[NSBundle mainBundle] resourcePath];
         NSString *pathToTessData    = [NSString stringWithFormat:@"%@/%@", resourcePath, @"OCRAumentiaBundle.bundle"];
         

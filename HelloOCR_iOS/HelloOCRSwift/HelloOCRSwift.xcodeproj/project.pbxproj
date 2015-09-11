@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612C799D1BA2F592002ABF67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612C799C1BA2F592002ABF67 /* AppDelegate.swift */; };
+		612C799F1BA2F592002ABF67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612C799E1BA2F592002ABF67 /* ViewController.swift */; };
+		612C79A21BA2F592002ABF67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612C79A01BA2F592002ABF67 /* Main.storyboard */; };
+		612C79A41BA2F592002ABF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612C79A31BA2F592002ABF67 /* Assets.xcassets */; };
+		612C79A71BA2F592002ABF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 612C79A51BA2F592002ABF67 /* LaunchScreen.storyboard */; };
+		612C79B81BA2F5F8002ABF67 /* OCRAumentiaBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 612C79B61BA2F5F8002ABF67 /* OCRAumentiaBundle.bundle */; };
+		612C79BE1BA2F689002ABF67 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79BD1BA2F689002ABF67 /* libiconv.tbd */; };
+		612C79C01BA2F68F002ABF67 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79BF1BA2F68F002ABF67 /* libstdc++.6.0.9.tbd */; };
+		612C79C21BA2F693002ABF67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79C11BA2F693002ABF67 /* UIKit.framework */; };
+		612C79C41BA2F698002ABF67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79C31BA2F698002ABF67 /* Foundation.framework */; };
+		612C79C61BA2F69C002ABF67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79C51BA2F69C002ABF67 /* CoreGraphics.framework */; };
+		612C79C81BA2F6A1002ABF67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79C71BA2F6A1002ABF67 /* QuartzCore.framework */; };
+		612C79CA1BA2F6A7002ABF67 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79C91BA2F6A7002ABF67 /* CoreVideo.framework */; };
+		612C79CC1BA2F6AD002ABF67 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79CB1BA2F6AD002ABF67 /* CoreMedia.framework */; };
+		612C79CE1BA2F6B1002ABF67 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79CD1BA2F6B1002ABF67 /* Accelerate.framework */; };
+		612C79D01BA2F6B6002ABF67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79CF1BA2F6B6002ABF67 /* AVFoundation.framework */; };
+		612C79D21BA2F6BB002ABF67 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79D11BA2F6BB002ABF67 /* AssetsLibrary.framework */; };
+		612C79DD1BA2F86D002ABF67 /* OCRAumentia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C79DC1BA2F86D002ABF67 /* OCRAumentia.framework */; };
+		612C79E01BA2F938002ABF67 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 612C79DF1BA2F938002ABF67 /* CaptureSessionManager.m */; };
+		612C79E41BA33C0C002ABF67 /* aumentia®.png in Resources */ = {isa = PBXBuildFile; fileRef = 612C79E11BA33C0C002ABF67 /* aumentia®.png */; };
+		612C79E51BA33C0C002ABF67 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 612C79E21BA33C0C002ABF67 /* pic1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		612C79991BA2F592002ABF67 /* HelloOCRSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOCRSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		612C799C1BA2F592002ABF67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		612C799E1BA2F592002ABF67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		612C79A11BA2F592002ABF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		612C79A31BA2F592002ABF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		612C79A61BA2F592002ABF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		612C79A81BA2F592002ABF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612C79B61BA2F5F8002ABF67 /* OCRAumentiaBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = OCRAumentiaBundle.bundle; path = ../../HelloOCR_iOS/SDK/OCRAumentiaBundle.bundle; sourceTree = "<group>"; };
+		612C79B91BA2F626002ABF67 /* HelloOCRSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloOCRSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		612C79BD1BA2F689002ABF67 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		612C79BF1BA2F68F002ABF67 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		612C79C11BA2F693002ABF67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		612C79C31BA2F698002ABF67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		612C79C51BA2F69C002ABF67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		612C79C71BA2F6A1002ABF67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		612C79C91BA2F6A7002ABF67 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		612C79CB1BA2F6AD002ABF67 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		612C79CD1BA2F6B1002ABF67 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		612C79CF1BA2F6B6002ABF67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		612C79D11BA2F6BB002ABF67 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		612C79DC1BA2F86D002ABF67 /* OCRAumentia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCRAumentia.framework; path = ../../HelloOCR_iOS/SDK/OCRAumentia.framework; sourceTree = "<group>"; };
+		612C79DE1BA2F938002ABF67 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		612C79DF1BA2F938002ABF67 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		612C79E11BA33C0C002ABF67 /* aumentia®.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aumentia®.png"; sourceTree = "<group>"; };
+		612C79E21BA33C0C002ABF67 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		612C79961BA2F592002ABF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612C79D21BA2F6BB002ABF67 /* AssetsLibrary.framework in Frameworks */,
+				612C79D01BA2F6B6002ABF67 /* AVFoundation.framework in Frameworks */,
+				612C79CE1BA2F6B1002ABF67 /* Accelerate.framework in Frameworks */,
+				612C79CC1BA2F6AD002ABF67 /* CoreMedia.framework in Frameworks */,
+				612C79CA1BA2F6A7002ABF67 /* CoreVideo.framework in Frameworks */,
+				612C79DD1BA2F86D002ABF67 /* OCRAumentia.framework in Frameworks */,
+				612C79C81BA2F6A1002ABF67 /* QuartzCore.framework in Frameworks */,
+				612C79C61BA2F69C002ABF67 /* CoreGraphics.framework in Frameworks */,
+				612C79C41BA2F698002ABF67 /* Foundation.framework in Frameworks */,
+				612C79C21BA2F693002ABF67 /* UIKit.framework in Frameworks */,
+				612C79C01BA2F68F002ABF67 /* libstdc++.6.0.9.tbd in Frameworks */,
+				612C79BE1BA2F689002ABF67 /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612C79901BA2F592002ABF67 = {
+			isa = PBXGroup;
+			children = (
+				612C799B1BA2F592002ABF67 /* HelloOCRSwift */,
+				612C799A1BA2F592002ABF67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		612C799A1BA2F592002ABF67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612C79991BA2F592002ABF67 /* HelloOCRSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		612C799B1BA2F592002ABF67 /* HelloOCRSwift */ = {
+			isa = PBXGroup;
+			children = (
+				612C79DE1BA2F938002ABF67 /* CaptureSessionManager.h */,
+				612C79DF1BA2F938002ABF67 /* CaptureSessionManager.m */,
+				612C799C1BA2F592002ABF67 /* AppDelegate.swift */,
+				612C799E1BA2F592002ABF67 /* ViewController.swift */,
+				612C79A01BA2F592002ABF67 /* Main.storyboard */,
+				612C79A31BA2F592002ABF67 /* Assets.xcassets */,
+				612C79A51BA2F592002ABF67 /* LaunchScreen.storyboard */,
+				612C79A81BA2F592002ABF67 /* Info.plist */,
+				612C79E31BA33C0C002ABF67 /* assets */,
+				612C79B41BA2F5EC002ABF67 /* Frameworks */,
+				612C79B91BA2F626002ABF67 /* HelloOCRSwift-Bridging-Header.h */,
+			);
+			path = HelloOCRSwift;
+			sourceTree = "<group>";
+		};
+		612C79B41BA2F5EC002ABF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				612C79D11BA2F6BB002ABF67 /* AssetsLibrary.framework */,
+				612C79CF1BA2F6B6002ABF67 /* AVFoundation.framework */,
+				612C79CD1BA2F6B1002ABF67 /* Accelerate.framework */,
+				612C79CB1BA2F6AD002ABF67 /* CoreMedia.framework */,
+				612C79C91BA2F6A7002ABF67 /* CoreVideo.framework */,
+				612C79C71BA2F6A1002ABF67 /* QuartzCore.framework */,
+				612C79C51BA2F69C002ABF67 /* CoreGraphics.framework */,
+				612C79C31BA2F698002ABF67 /* Foundation.framework */,
+				612C79C11BA2F693002ABF67 /* UIKit.framework */,
+				612C79BF1BA2F68F002ABF67 /* libstdc++.6.0.9.tbd */,
+				612C79BD1BA2F689002ABF67 /* libiconv.tbd */,
+				612C79DC1BA2F86D002ABF67 /* OCRAumentia.framework */,
+				612C79B61BA2F5F8002ABF67 /* OCRAumentiaBundle.bundle */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612C79E31BA33C0C002ABF67 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				612C79E11BA33C0C002ABF67 /* aumentia®.png */,
+				612C79E21BA33C0C002ABF67 /* pic1.jpg */,
+			);
+			name = assets;
+			path = ../../HelloOCR_iOS/assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		612C79981BA2F592002ABF67 /* HelloOCRSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 612C79AB1BA2F592002ABF67 /* Build configuration list for PBXNativeTarget "HelloOCRSwift" */;
+			buildPhases = (
+				612C79951BA2F592002ABF67 /* Sources */,
+				612C79961BA2F592002ABF67 /* Frameworks */,
+				612C79971BA2F592002ABF67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloOCRSwift;
+			productName = HelloOCRSwift;
+			productReference = 612C79991BA2F592002ABF67 /* HelloOCRSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		612C79911BA2F592002ABF67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Aumentia Technologies SL";
+				TargetAttributes = {
+					612C79981BA2F592002ABF67 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 612C79941BA2F592002ABF67 /* Build configuration list for PBXProject "HelloOCRSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 612C79901BA2F592002ABF67;
+			productRefGroup = 612C799A1BA2F592002ABF67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				612C79981BA2F592002ABF67 /* HelloOCRSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		612C79971BA2F592002ABF67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612C79A71BA2F592002ABF67 /* LaunchScreen.storyboard in Resources */,
+				612C79A41BA2F592002ABF67 /* Assets.xcassets in Resources */,
+				612C79B81BA2F5F8002ABF67 /* OCRAumentiaBundle.bundle in Resources */,
+				612C79A21BA2F592002ABF67 /* Main.storyboard in Resources */,
+				612C79E51BA33C0C002ABF67 /* pic1.jpg in Resources */,
+				612C79E41BA33C0C002ABF67 /* aumentia®.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		612C79951BA2F592002ABF67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612C799F1BA2F592002ABF67 /* ViewController.swift in Sources */,
+				612C799D1BA2F592002ABF67 /* AppDelegate.swift in Sources */,
+				612C79E01BA2F938002ABF67 /* CaptureSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		612C79A01BA2F592002ABF67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612C79A11BA2F592002ABF67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		612C79A51BA2F592002ABF67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				612C79A61BA2F592002ABF67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		612C79A91BA2F592002ABF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		612C79AA1BA2F592002ABF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		612C79AC1BA2F592002ABF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../HelloOCR_iOS/SDK/\"";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INFOPLIST_FILE = HelloOCRSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-mthumb",
+					"-lstdc++",
+					"-lz",
+					"-lm",
+					"-mfpu=neon",
+					"-mtune=cortex-a8",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aumentia.HelloOCRSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloOCRSwift/HelloOCRSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		612C79AD1BA2F592002ABF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../HelloOCR_iOS/SDK/\"";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INFOPLIST_FILE = HelloOCRSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-mthumb",
+					"-lstdc++",
+					"-lz",
+					"-lm",
+					"-mfpu=neon",
+					"-mtune=cortex-a8",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aumentia.HelloOCRSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloOCRSwift/HelloOCRSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		612C79941BA2F592002ABF67 /* Build configuration list for PBXProject "HelloOCRSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612C79A91BA2F592002ABF67 /* Debug */,
+				612C79AA1BA2F592002ABF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		612C79AB1BA2F592002ABF67 /* Build configuration list for PBXNativeTarget "HelloOCRSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612C79AC1BA2F592002ABF67 /* Debug */,
+				612C79AD1BA2F592002ABF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 612C79911BA2F592002ABF67 /* Project object */;
+}
