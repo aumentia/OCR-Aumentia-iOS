@@ -123,7 +123,107 @@ UIImage:
 **********************
 HOW TO Swift
 **********************
-TODO
+
+## Add the following system frameworks and libraries:
+
+* AssetsLibrary.framework
+* AVFoundation.framework
+* Accelerate.framework
+* CoreMedia.framework
+* CoreVideo.framework
+* QuartzCore.framework
+* CoreGraphics.framework
+* Foundation.framework
+* UIKit.framework
+* libiconv.dylib
+* libstdc++.6.0.9.dylib
+
+
+## Create a **bridging header**
+
+Import the **OCRAumentia framework** and its **dependencies**:
+
+```objective-c
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreVideo/CoreVideo.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <QuartzCore/QuartzCore.h>
+#import <Accelerate/Accelerate.h>
+#import <CoreMotion/CoreMotion.h>
+#import <AVFoundation/AVFoundation.h>
+
+#import <OCRAumentia/OCRAumentia.h>
+```
+
+## Set **Defines Module** to **Yes**
+
+
+## Init the framework.
+
+```swift
+
+// Set your API Key
+// Set language to English ("eng")
+// Set chars whitelist
+// Set the path to tessdata, i.e. to the root of the OCRAumentiaBundle
+let resourcePath = NSBundle.mainBundle().resourcePath;
+            
+let pathToTessData = resourcePath! + "/OCRAumentiaBundle.bundle";
+
+_ocr = ocrAPI("80e899706458463676eb3b82decb95777ec698d0",
+            path: pathToTessData as String,
+            lang: "eng",
+            chars: "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
+```
+
+## Send frames (for real time) or a single UIImage to analyze
+
+Frame:
+```swift
+
+self._ocr.processRGBFrame(cameraFrame, result:{ resImage in
+                    
+  dispatch_async(dispatch_get_main_queue(),{
+        // Display processed image: Update in main thread
+        let resView:UIImageView = UIImageView(frame: CGRectMake(0, 0, 180, 240));
+        resView.image = resImage;
+        self.view.addSubview(resView);
+    });
+    
+    }, wordsBlock:{ wordsDistDict in
+        
+        for (key, value) in wordsDistDict
+        {
+            print("Matched word \(key as! String) with confidence \(value)");
+        }
+});
+
+```
+
+UIImage:
+```swift
+
+// Image to analyse
+let image:UIImage = UIImage(named: "pic1.jpg")!;
+            
+self._ocr.processUIImage(image, result:{ resImage in
+    // Display processed image: Update in main thread
+    dispatch_async(dispatch_get_main_queue(),{
+        let resView:UIImageView = UIImageView(frame: CGRectMake(0, 0, 180, 240));
+        resView.image = resImage;
+        self.view.addSubview(resView);
+    });
+    
+    }, wordsBlock:{ wordsDistDict in
+        
+        for (key, value) in wordsDistDict
+        {
+            print("Matched word \(key as! String) with confidence \(value)");
+        }
+});
+            
+```
 
 <br>
 **********************
@@ -133,7 +233,6 @@ To use the framework you will need an API Key. To request it, just send an email
 * Bundle Id of the application where you want to use the framework.
 * Name and description of the app where you want to use the framework.
 * Your ( or your company ) name.
-
 
 <br>
 ******************
