@@ -16,6 +16,7 @@
 @property (strong, nonatomic) CaptureSessionManager *captureManager;
 @property (strong, nonatomic) UIView *cameraView;
 @property (strong, nonatomic) UIAlertController *myLoading;
+@property (strong, nonatomic) UIImageView *resView;
 
 @end
 
@@ -53,6 +54,9 @@
     [self removeCapture];
     
     [self removeOCR];
+    
+    [self.resView removeFromSuperview];
+    self.resView = nil;
 }
 
 
@@ -199,9 +203,16 @@
      {
          dispatch_async(dispatch_get_main_queue(), ^{
              
-             UIImageView *resView    = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 180, 240)];
-             resView.image           = resImage;
-             [self.view addSubview: resView];
+             if ( !self.resView )
+             {
+                 self.resView       = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 180, 240)];
+                 self.resView.image = resImage;
+                 [self.view addSubview: self.resView];
+             }
+             else
+             {
+                 self.resView.image = resImage;
+             }
              
              //NSLog(@"Finished...");
          });
