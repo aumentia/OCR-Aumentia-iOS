@@ -19,7 +19,7 @@
  * Description:
  * Author: Pablo GM (info@aumentia.com)
  * Created: 08/09/15.
- * Verion 0.5
+ * Verion 0.61
  *
  *
  **************************************************************************/
@@ -27,7 +27,8 @@
 #ifndef iOS_OpenCV_OCR_OCRAumentia_h
 #define iOS_OpenCV_OCR_OCRAumentia_h
 
-#define OCR_SDK_V_0_5_0 0.1.1
+#define OCR_SDK_V_0_5_0 0.5.0
+#define OCR_SDK_V_0_6_0 0.6.0
 #define UNKNOWN
 
 #define OCR_AVAILABLE(__OCR_version)

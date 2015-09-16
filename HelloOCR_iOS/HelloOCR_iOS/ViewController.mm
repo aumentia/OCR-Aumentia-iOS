@@ -15,7 +15,8 @@
 @property (strong, nonatomic) ocrAPI *ocr;
 @property (strong, nonatomic) CaptureSessionManager *captureManager;
 @property (strong, nonatomic) UIView *cameraView;
-@property (strong, nonatomic) UIAlertView *myLoading;
+@property (strong, nonatomic) UIAlertController *myLoading;
+@property (strong, nonatomic) UIImageView *resView;
 
 @end
 
@@ -53,6 +54,9 @@
     [self removeCapture];
     
     [self removeOCR];
+    
+    [self.resView removeFromSuperview];
+    self.resView = nil;
 }
 
 
@@ -62,7 +66,6 @@
 {
     if ( !self.ocr )
     {
-        // Tesseract path
         NSString *resourcePath      = [[NSBundle mainBundle] resourcePath];
         NSString *pathToTessData    = [NSString stringWithFormat:@"%@/%@", resourcePath, @"OCRAumentiaBundle.bundle"];
         
@@ -118,18 +121,20 @@
 
 - (void)addLoading
 {
-    //Add images into the library
-    self.myLoading = [[UIAlertView alloc] initWithTitle:@"Analysing ..." message:nil delegate:nil cancelButtonTitle:nil otherButtonTitles:nil];
-    UIActivityIndicatorView *spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-    spinner.center = CGPointMake(142,70);
-    [spinner startAnimating];
-    [self.myLoading addSubview:spinner];
-    [self.myLoading show];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        
+        self.myLoading  =   [UIAlertController
+                                      alertControllerWithTitle:@"Analysing ..."
+                                      message:nil
+                                      preferredStyle:UIAlertControllerStyleAlert];
+        [self presentViewController:self.myLoading animated:YES completion:nil];
+        
+    });
 }
 
 - (void)removeLoading
 {
-    [self.myLoading dismissWithClickedButtonIndex:0 animated:YES];
+    [self.myLoading dismissViewControllerAnimated:YES completion:nil];
     self.myLoading  = nil;
 }
 
@@ -198,9 +203,16 @@
      {
          dispatch_async(dispatch_get_main_queue(), ^{
              
-             UIImageView *resView    = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 180, 240)];
-             resView.image           = resImage;
-             [self.view addSubview: resView];
+             if ( !self.resView )
+             {
+                 self.resView       = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 180, 240)];
+                 self.resView.image = resImage;
+                 [self.view addSubview: self.resView];
+             }
+             else
+             {
+                 self.resView.image = resImage;
+             }
              
              //NSLog(@"Finished...");
          });
