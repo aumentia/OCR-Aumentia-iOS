@@ -8,6 +8,7 @@ OCR Framework
 * Real time OCR
 * **arm64 support**
 * **BITCODE enabled**
+* Compabitle with **XCode7** and **iOS 9**
 
 <br>
 **********************
