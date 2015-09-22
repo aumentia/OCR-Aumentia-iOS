@@ -19,7 +19,7 @@
  * Description:
  * Author: Pablo GM (info@aumentia.com)
  * Created: 08/09/15.
- * Verion 0.62
+ * Verion 0.63
  *
  *
  **************************************************************************/
@@ -45,7 +45,7 @@ typedef void (^imageResult)(UIImage *imageRes);
  * @param   lang Tesseract language used for the recognition
  * @param   chars Tesseract chars whitelist
  *
- * @return  Quality Rating
+ * @return  OCR instance
  */
 - (id)init:(NSString *)key path:(NSString*)path lang:(NSString*)lang chars:(NSString*)chars OCR_AVAILABLE(OCR_SDK_V_0_5_0);
 

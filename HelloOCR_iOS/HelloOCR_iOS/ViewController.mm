@@ -86,7 +86,7 @@
 
 - (void)processImage
 {
-    [self addLoading];
+    [self addLoading:@"Analysing ..."];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
         
@@ -119,12 +119,12 @@
 
 #pragma mark - Loading
 
-- (void)addLoading
+- (void)addLoading:(NSString*) message
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         
         self.myLoading  =   [UIAlertController
-                                      alertControllerWithTitle:@"Analysing ..."
+                                      alertControllerWithTitle:message
                                       message:nil
                                       preferredStyle:UIAlertControllerStyleAlert];
         [self presentViewController:self.myLoading animated:YES completion:nil];
