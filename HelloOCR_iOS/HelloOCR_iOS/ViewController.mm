@@ -111,7 +111,7 @@
              {
                  NSLog(@"Matched word %@ with confidence %@", key, [wordsDistDict objectForKey:key]);
              }
-         }];
+         } resSize:0];
         
     });
 }
@@ -223,7 +223,7 @@
          {
              NSLog(@"Matched word %@ with confidence %@", key, [wordsDistDict objectForKey:key]);
          }
-     }];
+     } resSize:0];
 }
 
 - (void)processNewCameraFrameYUV:(CVImageBufferRef)cameraFrame

@@ -117,7 +117,7 @@ class ViewController: UIViewController, CameraCaptureDelegate
                     {
                         print("Matched word \(key as! String) with confidence \(value)")
                     }
-            })
+            }, resSize:0)
         }
     }
 
@@ -224,7 +224,7 @@ class ViewController: UIViewController, CameraCaptureDelegate
                         {
                             print("Matched word \(key as! String) with confidence \(value)")
                         }
-                })
+                }, resSize:0)
         }
     }
     

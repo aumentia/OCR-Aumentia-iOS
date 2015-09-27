@@ -19,7 +19,7 @@
  * Description:
  * Author: Pablo GM (info@aumentia.com)
  * Created: 08/09/15.
- * Verion 0.63
+ * Verion 0.65
  *
  *
  **************************************************************************/
@@ -29,6 +29,7 @@
 
 #define OCR_SDK_V_0_5_0 0.5.0
 #define OCR_SDK_V_0_6_0 0.6.0
+#define OCR_SDK_V_0_6_5 0.6.5
 #define UNKNOWN
 
 #define OCR_AVAILABLE(__OCR_version)

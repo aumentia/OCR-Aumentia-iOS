@@ -19,7 +19,7 @@
  * Description:
  * Author: Pablo GM (info@aumentia.com)
  * Created: 08/09/15.
- * Verion 0.63
+ * Verion 0.65
  *
  *
  **************************************************************************/
@@ -58,8 +58,13 @@ typedef void (^imageResult)(UIImage *imageRes);
  *  @param result Block to retrieve the analyzed frame with a bounding box around the detected words.
  *
  *  @param wordsBlock Block to retrieve the matched words and their confidence (from 0 to 100).
+ *
+ *  @param resSize Size of the frame to be analysed. <br/>
+ *                 If 0 the frame will not be resized. <br/>
+ *                 The bigger the frame is, the more accurate the recognition will be, but the processing will be slower. <br/>
+ *                 The smaller the frame is, the processing will be faster, but we will lose accuracy.
  */
-- (void)processRGBFrame:(CVImageBufferRef)cameraFrame result:(imageResult)result wordsBlock:(matchedWords)wordsBlock OCR_AVAILABLE(OCR_SDK_V_0_5_0);
+- (void)processRGBFrame:(CVImageBufferRef)cameraFrame result:(imageResult)result wordsBlock:(matchedWords)wordsBlock resSize:(NSInteger)resSize OCR_AVAILABLE(OCR_SDK_V_0_6_5);
 
 /**
  *  @brief Process a UIImage
@@ -69,7 +74,12 @@ typedef void (^imageResult)(UIImage *imageRes);
  *  @param result Block to retrieve the analyzed frame with a bounding box around the detected words.
  *
  *  @param wordsBlock Block to retrieve the matched words and their confidence (from 0 to 100).
+ *
+ *  @param resSize Size of the frame to be analysed. <br/>
+ *                 If 0 the frame will not be resized. <br/>
+ *                 The bigger the frame is, the more accurate the recognition will be, but the processing will be slower. <br/>
+ *                 The smaller the frame is, the processing will be faster, but we will lose accuracy.
  */
-- (void)processUIImage:(UIImage*)image result:(imageResult)result wordsBlock:(matchedWords)wordsBlock OCR_AVAILABLE(OCR_SDK_V_0_5_0);
+- (void)processUIImage:(UIImage*)image result:(imageResult)result wordsBlock:(matchedWords)wordsBlock resSize:(NSInteger)resSize OCR_AVAILABLE(OCR_SDK_V_0_6_5);
 
 @end
