@@ -83,7 +83,7 @@ Frame:
         {
         NSLog(@"Matched word %@ with confidence %@", key, [wordsDistDict objectForKey:key]);
     }
-}];
+} resSize:0];
 
 ```
 
@@ -114,7 +114,7 @@ UIImage:
         {
             NSLog(@"Matched word %@ with confidence %@", key, [wordsDistDict objectForKey:key]);
         }
-    }];
+    } resSize:0];
 
 ```
 
@@ -196,7 +196,7 @@ self._ocr.processRGBFrame(cameraFrame, result:{ resImage in
         {
             print("Matched word \(key as! String) with confidence \(value)");
         }
-});
+}, resSize:0);
 
 ```
 
@@ -220,7 +220,7 @@ self._ocr.processUIImage(image, result:{ resImage in
         {
             print("Matched word \(key as! String) with confidence \(value)");
         }
-});
+}, resSize:0);
             
 ```
 
@@ -249,7 +249,7 @@ iOS Version
 *************************
 OCR Framework version
 *************************
-0.62
+0.65
 
 <br>
 ******************
