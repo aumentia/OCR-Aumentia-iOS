@@ -8,7 +8,7 @@ OCR Framework
 * Real time OCR
 * **arm64 support**
 * **BITCODE enabled**
-* Compabitle with **XCode7.3**, **Swift 2.2** and **iOS 9**
+* Compabitle with **XCode8**, **Swift 3** and **iOS 10**
 
 <br>
 **********************
@@ -32,6 +32,10 @@ HOW TO Objective C
 * UIKit.framework
 * libiconv.dylib
 * libstdc++.6.0.9.dylib
+
+## Disable Testability
+
+Build Settings -> Enable Testability -> No
 
 ## Import the library
 
