@@ -24,12 +24,12 @@ class ViewController: UIViewController, CameraCaptureDelegate
         
         let myLogo:UIImage          = UIImage(named: "aumentia®.png")!
         let myLogoView:UIImageView  = UIImageView(image: myLogo)
-        myLogoView.frame            = CGRectMake(0, 0, 150, 61)
+        myLogoView.frame            = CGRect(x: 0, y: 0, width: 150, height: 61)
         self.view.addSubview(myLogoView)
-        self.view.bringSubviewToFront(myLogoView)
+        self.view.bringSubview(toFront: myLogoView)
     }
     
-    override func viewWillAppear(animated: Bool)
+    override func viewWillAppear(_ animated: Bool)
     {
         super.viewWillAppear(animated)
         
@@ -40,7 +40,7 @@ class ViewController: UIViewController, CameraCaptureDelegate
         processImage()
     }
     
-    override func viewWillDisappear(animated: Bool)
+    override func viewWillDisappear(_ animated: Bool)
     {
         super.viewWillDisappear(animated)
         
@@ -68,7 +68,7 @@ class ViewController: UIViewController, CameraCaptureDelegate
     {
         if _ocr == nil
         {
-            let resourcePath = NSBundle.mainBundle().resourcePath
+            let resourcePath = Bundle.main.resourcePath
             
             let pathToTessData = resourcePath! + "/OCRAumentiaBundle.bundle"
             
@@ -95,17 +95,18 @@ class ViewController: UIViewController, CameraCaptureDelegate
     {
         addLoading()
         
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
-        {
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
+            
             let image:UIImage = UIImage(named: "pic1.jpg")!
             
             self._ocr.processUIImage(image, result:{ resImage in
                 
-                dispatch_async(dispatch_get_main_queue(),{
-                    let resView:UIImageView = UIImageView(frame: CGRectMake(0, 0, 180, 240))
+                DispatchQueue.main.async {
+                    
+                    let resView:UIImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 180, height: 240))
                     resView.image = resImage
                     self.view.addSubview(resView)
-                })
+                }
                 
                 self.removeLoading()
                 
@@ -113,11 +114,11 @@ class ViewController: UIViewController, CameraCaptureDelegate
                 
                 }, wordsBlock:{ wordsDistDict in
                     
-                    for (key, value) in wordsDistDict
+                    for (key, value) in wordsDistDict!
                     {
                         print("Matched word \(key as! String) with confidence \(value)")
                     }
-            }, resSize:0)
+                }, resSize:0)
         }
     }
 
@@ -126,17 +127,16 @@ class ViewController: UIViewController, CameraCaptureDelegate
     
     func addLoading()
     {
-        dispatch_async(dispatch_get_main_queue(),{
+        DispatchQueue.main.async {
             
-            self._myLoading = UIAlertController(title: "Analysing ...", message: nil, preferredStyle: .Alert)
-            self.presentViewController(self._myLoading, animated: true, completion: nil)
-        
-        })
+            self._myLoading = UIAlertController(title: "Analysing ...", message: nil, preferredStyle: .alert)
+            self.present(self._myLoading, animated: true, completion: nil)
+        }
     }
     
     func removeLoading()
     {
-        _myLoading.dismissViewControllerAnimated(true, completion: nil)
+        _myLoading.dismiss(animated: true, completion: nil)
         _myLoading = nil
     }
     
@@ -154,17 +154,18 @@ class ViewController: UIViewController, CameraCaptureDelegate
         // Set video streaming quality
         _captureManager.captureSession.sessionPreset = AVCaptureSessionPresetMedium
         
-        _captureManager.outPutSetting = NSNumber(unsignedInt: kCVPixelFormatType_32BGRA)
+        _captureManager.outPutSetting = NSNumber(value: kCVPixelFormatType_32BGRA)
         
-        _captureManager.addVideoInput(AVCaptureDevicePosition.Back)
+        _captureManager.addVideoInput(AVCaptureDevicePosition.back)
         _captureManager.addVideoOutput()
         _captureManager.addVideoPreviewLayer()
         
         let layerRect:CGRect = self.view.bounds
         
-        _captureManager.previewLayer.opaque = false
+        _captureManager.previewLayer.isOpaque = false
         _captureManager.previewLayer.bounds = layerRect
-        _captureManager.previewLayer.position = CGPointMake(CGRectGetMidX(layerRect), CGRectGetMidY(layerRect))
+        
+        _captureManager.previewLayer.position = CGPoint(x: layerRect.midX, y: layerRect.midY)
         
         // Create a view where we attach the AV Preview Layer
         _cameraView = UIView(frame: self.view.bounds)
@@ -174,9 +175,9 @@ class ViewController: UIViewController, CameraCaptureDelegate
         self.view.addSubview(_cameraView)
         
         // Start
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
-            {
-                self.startCaptureManager()
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
+            
+            self.startCaptureManager()
         }
     }
     
@@ -198,32 +199,32 @@ class ViewController: UIViewController, CameraCaptureDelegate
     
     func processNewCameraFrameRGB(cameraFrame: CVImageBuffer!)
     {
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
-            {
-                self._ocr.processRGBFrame(cameraFrame, result:{ resImage in
-                    
-                    dispatch_async(dispatch_get_main_queue(),{
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
+            
+            self._ocr.processRGBFrame(cameraFrame, result:{ resImage in
+                
+                DispatchQueue.main.async
+                {
+                    if self._resView == nil
+                    {
+                        self._resView = UIImageView(frame: CGRect(x: 0, y: 0, width: 180, height: 240))
                         
-                        if self._resView == nil
-                        {
-                            self._resView = UIImageView(frame: CGRectMake(0, 0, 180, 240))
-                            
-                            self._resView.image = resImage
-                            
-                            self.view.addSubview(self._resView)
-                        }
-                        else
-                        {
-                            self._resView.image = resImage
-                        }
-                    })
-                    
-                    }, wordsBlock:{ wordsDistDict in
+                        self._resView.image = resImage
                         
-                        for (key, value) in wordsDistDict
-                        {
-                            print("Matched word \(key as! String) with confidence \(value)")
-                        }
+                        self.view.addSubview(self._resView)
+                    }
+                    else
+                    {
+                        self._resView.image = resImage
+                    }
+                }
+
+                }, wordsBlock:{ wordsDistDict in
+                    
+                    for (key, value) in wordsDistDict!
+                    {
+                        print("Matched word \(key as! String) with confidence \(value)")
+                    }
                 }, resSize:0)
         }
     }

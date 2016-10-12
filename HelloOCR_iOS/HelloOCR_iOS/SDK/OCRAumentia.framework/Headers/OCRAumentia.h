@@ -15,7 +15,7 @@
  * is strictly forbidden unless prior written permission is obtained
  * from Aumentia Technologies.
  *
- * File: ocrAPI.h
+ * File: OCRAumentia.h
  * Description:
  * Author: Pablo GM (info@aumentia.com)
  * Created: 08/09/15.
